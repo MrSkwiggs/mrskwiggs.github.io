@@ -2,9 +2,6 @@
 layout: page
 permalink: /blog/tags/
 ---
-
- 
-
 <h3>  {{ page.title }} </h3>
 
 <div id="categories">
@@ -20,9 +17,6 @@ permalink: /blog/tags/
     </article>
 
     {% endfor %}
-    
   </div>
 {% endfor %}
 </div>
-
-

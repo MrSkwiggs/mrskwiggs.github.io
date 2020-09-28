@@ -1,49 +1,42 @@
 title: skwiggs
 subtitle: iOS Dev
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal dev site
+  An iOS Dev's personal site
 
 url: "https://skwiggs.dev" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
+    - text: About
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact Me
+    - text: Contact
       url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
-
+    
 # Edit these details
 
-author_logo: profile.png
+author_logo: profile.jpg
 author: Dorian Grolaux
-author_bio: Hi, my name is Dorian, but you'll probably know me as Skwiggs
+author_shortname: Dorian
+author_bio: iOS Dev
 author_email: "dorian@skwiggs.dev"
 author_location: The Netherlands
 author_website_url: "https://skwiggs.dev"
 typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
+            - company_name: OneFit
+              company_logo: about/onefit.png
               company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+              designation: iOS Developer
+              description: Completely overhauled the codebase for their main app
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: IBM
+              company_logo: ibm.jpeg
+              company_url: https://ibm.com
+              designation: Mobile Developer
+              description: At first, I worked on both Android & iOS. Later I specialised in iOS & Swift.
               visibility: true
 
 author_education_details:
@@ -55,15 +48,10 @@ author_education_details:
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: netswift.png
+                project_title: Netswift
+                project_description: A type-safe networking library written in Swift
+                project_url: https://github.com/mrskwiggs/netswift
                 visibility: true
 
 # social links
