@@ -833,11 +833,10 @@ header {
 #mce-EMAIL_footer {
     width: 400px;
     padding: 14px;
-    color: #111;
+    color: var(--light-text-color);
     border-color: #111;
-    background: bisque;
+    background: var(--card-background-color);
     text-align: center;
-    text-transform: capitalize;
     border: 1px solid #fff;
 }
 
