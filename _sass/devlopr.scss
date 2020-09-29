@@ -277,7 +277,7 @@ header {
     padding-left: 100px;
     padding-right: 100px;
     background-color: var(--main-background-color) !important;
-    box-shadow: #000 0px 0px 8px;
+    box-shadow: #0000005d 0px 0px 8px !important;
 }
 
 #navbar-hamburger,
@@ -710,6 +710,13 @@ header {
     padding-top: 10px;
     margin: 4px;
 }
+
+#article-img > img {
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+
 .recent-article-link {
     font-size: 20px;
     text-decoration: none;
