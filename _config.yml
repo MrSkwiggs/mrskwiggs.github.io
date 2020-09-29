@@ -55,7 +55,7 @@ author_project_details:
 
 # social links
 author_social_links:
-  - icon: fa-instagram
+  - icon: fa-twitter
     url: https://twitter.com/MrSkwiggs
   - icon: fa-github
     url: https://github.com/MrSkwiggs
