@@ -12,6 +12,7 @@ Gemfile.lock
 
 # bundle cache
 vendor
+.container/
 
 # jekyll 
 
