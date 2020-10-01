@@ -42,12 +42,12 @@ author_education_details:
   - college_logo: mit.png
     college_name: MIT
     college_url: https://mit.org
-    college_degree: CS Engineer
+    college_degree: Computer Sciences
     description: Bachelor of Technology
     visibility: true
 
 author_project_details:
-  - project_thumbnail: netswift.png
+  - project_thumbnail: about/netswift.png
     project_title: Netswift
     project_description: A type-safe networking library written in Swift
     project_url: https://github.com/mrskwiggs/netswift
@@ -85,7 +85,7 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: true
 
 # pagination of posts
@@ -94,12 +94,12 @@ per_page: 4
 paginate_path: "/blog/page/:num/"
 
 # minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
 
 # Archives
 # jekyll-archives:
