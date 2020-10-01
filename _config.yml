@@ -43,6 +43,8 @@ baseurl: ''
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Amsterdam
 
+repository: MrSkwiggs/mrskwiggs.github.io
+
 google_analytics:
   id: 'UA-45638435-2'          # Fill with your Google Analytics ID
   pv:
