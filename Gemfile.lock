@@ -289,6 +289,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 2.1)
   github-pages
   html-proofer
   jekyll-admin
