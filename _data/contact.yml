@@ -1,0 +1,22 @@
+#  The contact options.
+
+-
+  type: github
+  icon: 'fab fa-github-alt'
+-
+  icon: 'fab fa-linkedin'
+  url:  'https://linkedin.com/in/skwiggs'
+-
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/story/skwiggs'
+-
+  type: twitter
+  icon: 'fab fa-twitter'
+-
+  type: email
+  icon: 'fas fa-envelope'
+  noblank: false            # open link in current tab
+-
+  type: rss
+  icon: 'fas fa-rss'
+  noblank: true
