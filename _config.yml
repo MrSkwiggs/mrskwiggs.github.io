@@ -24,7 +24,7 @@ github_username: MrSkwiggs
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: cotes2020/jekyll-theme-chirpy
 plugins:
   - jekyll-feed
 
