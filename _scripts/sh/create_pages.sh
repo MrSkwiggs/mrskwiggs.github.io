@@ -1,14 +1,4 @@
 #!/usr/bin/env bash
-#
-# Create HTML pages for Categories and Tags in posts.
-#
-# Usage:
-#     Call from the '_posts' sibling directory.
-#
-# v2.2
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2020 Cotes Chung
-# Published under MIT License
 
 set -eu
 
