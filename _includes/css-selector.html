@@ -1,46 +1,81 @@
 {% if page.layout == 'home' %}
-  <link rel="preload" href="{{ '/assets/css/home.css' | relative_url }}" as="style">
-  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+<link
+  rel="preload"
+  href="{{ '/assets/css/home.css' | relative_url }}"
+  as="style"
+/>
+<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}" />
 
-{% elsif page.layout == 'page' %}
+{% elsif page.layout == 'page' %} {% if page.type == 'categories' %}
 
-  {% if page.type == 'categories' %}
+<link
+  rel="preload"
+  href="{{ '/assets/css/categories.css' | relative_url }}"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/categories.css' | relative_url }}"
+/>
 
-    <link rel="preload" href="{{ '/assets/css/categories.css' | relative_url }}" as="style">
-    <link rel="stylesheet" href="{{ '/assets/css/categories.css' | relative_url }}">
+{% elsif page.type == 'tags' %}
 
-  {% elsif page.type == 'tags' %}
+<link
+  rel="preload"
+  href="{{ '/assets/css/tags.css' | relative_url }}"
+  as="style"
+/>
+<link rel="stylesheet" href="{{ '/assets/css/tags.css' | relative_url }}" />
 
-    <link rel="preload" href="{{ '/assets/css/tags.css' | relative_url }}" as="style">
-    <link rel="stylesheet" href="{{ '/assets/css/tags.css' | relative_url }}">
+{% elsif page.type == 'archives' %}
 
-  {% elsif page.type == 'archives' %}
+<link
+  rel="preload"
+  href="{{ '/assets/css/archives.css' | relative_url }}"
+  as="style"
+/>
+<link rel="stylesheet" href="{{ '/assets/css/archives.css' | relative_url }}" />
 
-    <link rel="preload" href="{{ '/assets/css/archives.css' | relative_url }}" as="style">
-    <link rel="stylesheet" href="{{ '/assets/css/archives.css' | relative_url }}">
+{% else %}
 
-  {% else %}
+<link
+  rel="preload"
+  href="{{ '/assets/css/page.css' | relative_url }}"
+  as="style"
+/>
+<link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}" />
 
-    <link rel="preload" href="{{ '/assets/css/page.css' | relative_url }}" as="style">
-    <link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
+{% endif %} {% elsif page.layout == 'category' or page.layout == 'tag' %}
 
-  {% endif %}
-
-{% elsif page.layout == 'category' or page.layout == 'tag' %}
-
-  <link rel="preload" href="{{ '/assets/css/category-tag.css' | relative_url }}" as="style">
-  <link rel="stylesheet" href="{{ '/assets/css/category-tag.css' | relative_url }}">
+<link
+  rel="preload"
+  href="{{ '/assets/css/category-tag.css' | relative_url }}"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/category-tag.css' | relative_url }}"
+/>
 
 {% elsif page.layout == 'post' %}
 
-  <link rel="preload" as="style" href="{{ '/assets/css/post.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}">
+<link
+  rel="preload"
+  as="style"
+  href="{{ '/assets/css/post.css' | relative_url }}"
+/>
+<link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}" />
 
-  {% if site.toc and page.toc %}
+{% if site.toc and page.toc %}
 
-    <link rel="preload" as="style" href="{{ '/assets/css/lib/bootstrap-toc.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/lib/bootstrap-toc.min.css' | relative_url }}" />
+<link
+  rel="preload"
+  as="style"
+  href="{{ '/assets/css/lib/bootstrap-toc.min.css' | relative_url }}"
+/>
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/lib/bootstrap-toc.min.css' | relative_url }}"
+/>
 
-  {% endif %}
-
-{% endif %}
+{% endif %} {% endif %}
