@@ -1,0 +1,30 @@
+
+<div class="row projects">
+  {% for project in site.data.projects %}
+  <div class="col-sm-12 item">
+    <div class="row">
+      <div class="col-sm-5 col-md-4 col-lg-4">
+        <a href="#"
+          ><img
+            class="img-fluid"
+            src="{{site.url}}{{site.baseUrl}}/assets/img/personal-projects/{{project.image}}"
+        /></a>
+      </div>
+      <div class="col">
+        <h3 class="name">{{project.name}}</h3>
+        <p class="description">{{project.description}}</p>
+        <a
+          class="github-button"
+          href="https://github.com/MrSkwiggs/{{project.name}}"
+          data-color-scheme="light: light; dark: dark;"
+          data-icon="octicon-star"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star MrSkwiggs/{{project.name}} on GitHub"
+          >Star</a
+        >
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
