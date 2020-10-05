@@ -31,7 +31,7 @@
 
   /* Sidebar */
   --nav-cursor-color: rgb(183, 182, 182);
-  --sidebar-bg: rgb(39, 42, 44);
+  --sidebar-bg:var(--main-wrapper-bg);
 
   /* Top Bar */
   --topbar-text-color: var(--text-color);

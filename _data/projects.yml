@@ -5,4 +5,4 @@
   name: Netswift
   tagline: A type-safe, high-level networking solution.
   description: >- 
-    Netswift is my first open-source project. It's a Networking library entirely written in Swift with heavy emphasis on type-safety and structure, which makes it easy to maintain.
+    Netswift is my first open-source project. It's a Networking library entirely written in Swift with heavy emphasis on type-safety and structure, which makes it easy to use & maintain.

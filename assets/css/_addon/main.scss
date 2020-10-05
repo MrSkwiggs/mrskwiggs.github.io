@@ -77,12 +77,11 @@ $sidebar-display: "sidebar-display";
   .site-title {
     text-align: center;
     a {
-      // color: var(--site-title-color);
+      color: var(--site-title-color);
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: .5px;
       &:hover {
-        color: #fff;
         text-decoration: none;
       }
     }
@@ -100,6 +99,9 @@ $sidebar-display: "sidebar-display";
   .sidebar-bottom {
     .icon-border + a { // the icon behide mode-toggle
       margin-left: .1rem;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   .nav-link {
@@ -112,12 +114,12 @@ $sidebar-display: "sidebar-display";
     height: $tab-height;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: var(--link-color);
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: var(--link-color);
       }
     }
   }
@@ -178,7 +180,7 @@ $sidebar-display: "sidebar-display";
     }
 
     a:hover, #mode-toggle-wrapper > i:hover {
-      color: #fff;
+      color: var(--link-color);
     }
 
     #mode-toggle-wrapper {

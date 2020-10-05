@@ -23,7 +23,7 @@
   --btn-box-shadow: #eaeaea;
 
   /* Sidebar */
-  --sidebar-bg: rgba(35, 37, 46, 1);
+  --sidebar-bg:var(--main-wrapper-bg);
   --nav-cursor-color: #fcfcfc;
 
   /* Topbar */

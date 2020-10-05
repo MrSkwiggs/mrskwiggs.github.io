@@ -4,3 +4,26 @@
 
 {% include_relative _addon/main.scss %}
 {% include_relative _addon/syntax.scss %}
+
+.reactive-img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    transition: transform .5s;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    max-width: 100%;
+}
+
+.reactive-img:hover {
+    transform: scale(1.05);
+}
+
+.card-img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
