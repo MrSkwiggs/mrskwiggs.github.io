@@ -4,6 +4,6 @@
 
 layout: home
 ---
-Well hello there 👋 Looks like you're curious about who I am, that's cool :)
+Well hello there 👋 
 
-Just a quick heads up: this site is currently **Work In Progress**. Enter with precautions!
+Looks like you found your way onto my personal website. May I suggest the following topics while you browse around?
