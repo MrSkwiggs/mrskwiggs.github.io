@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Personal Project"
+title:  "Working on something new"
 date: 2022-07-11 21:56:00 +0200
 categories: site, app
 ---
